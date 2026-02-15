@@ -49,3 +49,38 @@ reconcile-project/
     │   └── main.jsx        # React DOM Render
     ├── vite.config.js      # PWA Configuration
     └── package.json        # Dependencies (Recharts, Axios, Lucide)
+
+🚀 Panduan Instalasi & Menjalankan
+1. Persiapan Backend
+Bash
+
+cd server
+npm install
+node index.js
+
+Server akan berjalan di http://localhost:3001
+2. Persiapan Frontend
+Bash
+
+cd client
+npm install
+npm run dev
+
+Aplikasi web akan berjalan di http://localhost:5173
+📈 Roadmap Pengembangan (Bulan 1 - 6)
+Fase	Deskripsi	Status
+Bulan 1-2	Pengembangan PWA & Core OCR Engine	✅ Completed
+Bulan 3-4	Integrasi API Makro & Offline-Sync	✅ Completed
+Bulan 5-6	Finalisasi Fitur Prediksi & Uji Coba Lapangan	🚧 In Progress
+💡 Teknologi yang Digunakan
+
+    Frontend: React.js, Tailwind CSS (Design System), Recharts (Data Visualization).
+
+    Backend: Node.js, Express.js.
+
+    AI/ML: Tesseract.js (Optical Character Recognition).
+
+    Tools: Lucide Icons, Axios.
+
+Reconcile Technologies - Empowering Business with Intelligent Data.
+Dibuat untuk Launchpad Universitas Brawijaya 2026.
